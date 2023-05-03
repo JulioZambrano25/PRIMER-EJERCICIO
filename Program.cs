@@ -5,24 +5,25 @@
         //Crear el objeto de tipo usuario
         Usuario usuario = new Usuario();
         //añadir variables a cada uno de los atributos que tiene el objeto usuario
-        usuario.cedula =1315202174;
-        usuario.email = "juulio@gmail.com";
-        usuario.nombre ="Pedro";
-        usuario.password ="1234";
+        usuario.Cedula =1315202174;
+        usuario.Email = "juulio@gmail.com";
+        usuario.Nombre ="Pedro";
+        usuario.Password ="1234";
         //muestra por pantalla los nombre de los constructores
-        Console.WriteLine("Los nombres son: {0} y {1}", usuario.nombre);
+        usuario.MostrarDatos();
 
         
         //Crear el objeto de tipo conductor
         Conductor conductor = new Conductor();
         //añadir variables a cada uno de los atributos que tiene el objeto conductor
-        conductor.cedula =1315202174;
-        conductor.email = "juulio@gmail.com";
-        conductor.nombre ="Pedro";
-        conductor.password ="1234";
-
-        //muestra por pantalla los nombre de los constructores
-        Console.WriteLine("Los nombres son: {0} y {1}", conductor.nombre);
+        conductor.Cedula =1315202174;
+        conductor.Email = "juulio@gmail.com";
+        Console.WriteLine("Ingrese el nombre del conductor:");
+        conductor.Nombre =Console.ReadLine();
+        conductor.Password ="1234";
+        conductor.Licencia="B";
+        //Muestra por pantalla el nombre del conductor
+        conductor.MostrarDatos();
 
 
 
