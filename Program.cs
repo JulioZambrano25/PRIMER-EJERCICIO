@@ -24,11 +24,13 @@
         //Muestra por pantalla el nombre del conductor
         conductor.MostrarDatos();
 
-
-
-
-
-
-
+        //Crear los metodo de pago
+        Tarjeta tarjeta = new Tarjeta();
+        //añadir variables a cada uno de los atributos que tiene el objeto conductor
+        tarjeta.Id =1010;
+        tarjeta.Numero=1010254853;
+        tarjeta.Cvv=152;
+        tarjeta.Fecha=24-12-22;
+        tarjeta.MostrarMoney();
     }
 }

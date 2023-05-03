@@ -47,7 +47,7 @@ class pago
             return email;
         }
     }
-    public void MostrarPantalla(){
+    public void MostrarMoney(){
         Console.WriteLine("id {0}, Numero {1}, Cvv {2}, Fecha {3}, Email {4}", id, numero, cvv,fecha,email);
     }
 }
