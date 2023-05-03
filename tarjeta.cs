@@ -1,5 +1,9 @@
 class Tarjeta:pago
 {
+    public Tarjeta()
+    {
+    }
+
     public Tarjeta(int id, int numero, int cvv, double fecha){
         
         this.id=id;

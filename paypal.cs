@@ -1,5 +1,8 @@
 class Paypal:pago
 {
+    public Paypal()
+    {
+    }
 
     public Paypal(int id, string email){
         
